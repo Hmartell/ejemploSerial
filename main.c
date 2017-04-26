@@ -77,6 +77,7 @@ if(indiceBufferRecepcionRda > finTrama){
          printf("Buffer[%X] = %c =  0x%X\r",indiceImpresion, bufferRecepcionRda[indiceImpresion],bufferRecepcionRda[indiceImpresion]);
          indiceImpresion++;
       }while((signed int)indiceImpresion < finTrama);
+      indiceBufferRecepcionRda=0;
    }
 }
 
