@@ -31,7 +31,7 @@ void main (void){
    while(1){
       if(banderaNuevoCaracter==1){
          banderaNuevoCaracter=0;
-         putc(caracterRecibido);
+         putc(caracterRecibido+1);
       }
    }
 }		
