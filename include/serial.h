@@ -8,7 +8,7 @@
 #define BUFFER_SERIAL_SIZE 100
 char bufferRecepcionRda[BUFFER_SERIAL_SIZE];
 byte indiceBufferRecepcionRda=0;
-byte serial0;
+byte serial0=0;
 #bit banderaNuevoCaracter = serial0.0
 
 void isr_rda(void);
